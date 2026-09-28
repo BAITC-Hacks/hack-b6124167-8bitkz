@@ -24,7 +24,7 @@ ashyq.data.gov.kz, выгрузка 2025 Q1.
 
 ```bash
 pip install -r requirements.txt
-python main.py
+streamlit run app/main.py
 ```
 
 Приложение запустится на http://localhost:8501. Для остановки — `Ctrl+C`.
