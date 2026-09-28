@@ -1,0 +1,13 @@
+# Данные и кэши (тяжёлые, в репозиторий не входят)
+датасет/
+cache/
+models/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Секреты Streamlit (никогда не коммитить)
+.streamlit/secrets.toml
