@@ -22,6 +22,12 @@ ashyq.data.gov.kz, выгрузка 2025 Q1.
 
 ## Быстрый старт
 
+**Шаг 1. Скачать данные.** Скачать датасет по ссылке: (https://drive.google.com/drive/folders/1k5UT2Xp3ErPkfnLg6E0BGANqGsC1yzKm?usp=sharing).
+Создать в корне проекта папку `датасет/` и поместить туда все скачанные CSV-файлы
+(состав файлов — см. раздел «Данные» ниже).
+
+**Шаг 2. Установить зависимости и запустить:**
+
 ```bash
 pip install -r requirements.txt
 streamlit run app/main.py
